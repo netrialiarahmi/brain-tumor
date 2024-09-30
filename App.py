@@ -8,7 +8,7 @@ from Ensemble_functions import output_label,ensemble_output,image_preprocess,loa
 from PIL import Image
 import gdown
 
-st.title('🧠 NeuroClassify')
+st.title('🧠 APTO')
 st.write('An approach that incorporates the power of deep learning Ensembles to identify Brain Tumours from the images')
 st.subheader("Description")
 st.write("")
