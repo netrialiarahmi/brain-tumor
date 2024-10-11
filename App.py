@@ -136,7 +136,7 @@ if click:
              st.progress(output_arr[0])
              st.metric(label="Meningioma", value=f"{output_arr[1] * 100:.2f}%")
              st.progress(output_arr[1])
-             st.metric(label="No Tumour", value=f"{output_arr[2] * 100:.2f}%")
+             st.metric(label="No Tumor", value=f"{output_arr[2] * 100:.2f}%")
              st.progress(output_arr[2])
              st.metric(label="Pituitary", value=f"{output_arr[3] * 100:.2f}%")
              st.progress(output_arr[3])
